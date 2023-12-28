@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>个性化推荐</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- 引入样式文件 -->
+</head>
+
+<body>
+    <h2>猜你喜欢</h2>
+    <div id="personalized-content">
+        <!-- 强烈推荐部分 -->
+        <section>
+            <h3>强烈推荐以下仓库：</h3>
+            <ul>
+                {% for repo in data['repos_details']['hits']['hits'] %}
+                {% if repo['strongly'] %}
+                <li>
+                    <a href="{{ repo['_source']['url'] }}">{{ repo['_source']['url'] }}</a>
+                    <p>{{ repo['_source']['description'] }}</p>
+                </li>
+                {% endif %}
+                {% endfor %}
+                - 检测到 {{ data["maxStart"] }} 个和你相似的用户 star
+                了这个仓库。其中和你最相似的用户是 {{
+                data['similar_users'][0]['username'] }}
+
+            </ul>
+        </section>
+
+        <!-- 猜你喜欢部分 -->
+        <section>
+            <h3>猜你喜欢：</h3>
+            <ul>
+                {% for repo in data['repos_details']['hits']['hits'] %}
+                {% if not repo['strongly'] %}
+                <li>
+                    <a href="{{ repo['_source']['url'] }}">{{ repo['_source']['url'] }}</a>
+                    <p>{{ repo['_source']['description'] }}</p>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </section>
+    </div>
+</body>
+
+
+</html>

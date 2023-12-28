@@ -1,0 +1,32 @@
+{
+    "user_intrests": [
+        "rails",
+        "java",
+        "user-experience",
+        "docker",
+        "dashboard",
+        "presentation",
+        "cluster",
+        "cnodejs"
+    ],
+    "user_clicks": {
+        "flux-application": 6,
+        "yaml": 7,
+        "emojis": 5,
+        "java": 9,
+        "project-explorer": 6,
+        "display-youtube": 6,
+        "electroacoustic-music": 6,
+        "ebook": 9,
+        "electron-builder": 6,
+        "docker": 10,
+        "node-android": 6,
+        "coredata-model": 3,
+        "buttons": 5,
+        "email": 3,
+        "vue": 6,
+        "theme": 4,
+        "ndk": 3,
+        "rust": 4
+    }
+}

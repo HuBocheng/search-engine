@@ -1,0 +1,201 @@
+{
+    "search_logs": [
+        {
+            "search_query": "binary",
+            "search_type": "repositories",
+            "timestamp": "2023-12-20T20:02:22.811066"
+        },
+        {
+            "search_query": "champ",
+            "search_type": "repositories",
+            "timestamp": "2023-12-21T15:01:10.769251"
+        },
+        {
+            "search_query": "execute",
+            "search_type": "repositories",
+            "timestamp": "2023-12-25T22:52:32.613596"
+        },
+        {
+            "search_query": "wonderful",
+            "search_type": "repositories",
+            "timestamp": "2023-12-25T23:02:32.071558"
+        },
+        {
+            "search_query": "wonderful",
+            "search_type": "repositories",
+            "timestamp": "2023-12-25T23:12:30.452388"
+        },
+        {
+            "search_query": "wonderful",
+            "search_type": "repositories",
+            "timestamp": "2023-12-25T23:13:10.938130"
+        },
+        {
+            "search_query": "wonderful",
+            "search_type": "repositories",
+            "timestamp": "2023-12-25T23:14:21.133467"
+        },
+        {
+            "search_query": "wonderful",
+            "search_type": "repositories",
+            "timestamp": "2023-12-25T23:16:03.973061"
+        },
+        {
+            "search_query": "wonderful",
+            "search_type": "repositories",
+            "timestamp": "2023-12-25T23:16:18.697672"
+        },
+        {
+            "search_query": "wonderful",
+            "search_type": "repositories",
+            "timestamp": "2023-12-25T23:16:21.258247"
+        },
+        {
+            "search_query": "wonderful",
+            "search_type": "repositories",
+            "timestamp": "2023-12-25T23:32:55.357349"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T02:39:49.005715"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T02:40:49.759658"
+        },
+        {
+            "search_query": "hahaha",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T02:57:31.167330"
+        },
+        {
+            "search_query": "hahaha",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T02:57:46.810937"
+        },
+        {
+            "search_query": "hahaha",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T02:57:55.542247"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T02:58:05.021212"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T02:58:09.366219"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T02:58:16.577675"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T02:58:20.024435"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T02:58:25.493514"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T02:58:31.428499"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T02:58:49.362461"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T02:58:54.931183"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T02:59:01.864873"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T03:06:33.945322"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T03:11:17.189180"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T03:11:22.235691"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T03:11:31.151870"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T03:11:42.855858"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T03:11:52.883041"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T03:11:58.763214"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T03:12:02.568520"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T20:58:12.512691"
+        }
+    ],
+    "page_visit_logs": [],
+    "web_click_logs": [
+        {
+            "url": "https://github.com/zemirco/nodejs-pdf-docs",
+            "timestamp": "2023-12-26T20:58:15.604074"
+        },
+        {
+            "url": "https://github.com/java-decompiler/jd-eclipse",
+            "timestamp": "2023-12-26T20:58:15.604074"
+        },
+        {
+            "url": "https://github.com/prooph/event-store",
+            "timestamp": "2023-12-26T20:58:15.604074"
+        },
+        {
+            "url": "https://github.com/ArthurClemens/polythene",
+            "timestamp": "2023-12-26T20:58:15.604074"
+        },
+        {
+            "url": "https://github.com/h6ah4i/android-materialshadowninepatch",
+            "timestamp": "2023-12-26T20:58:15.604074"
+        },
+        {
+            "url": "https://github.com/gowong/material-sheet-fab",
+            "timestamp": "2023-12-26T20:58:15.604074"
+        }
+    ]
+}

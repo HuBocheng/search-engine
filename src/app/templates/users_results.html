@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>用户搜索结果</title>
+    <link rel="icon" href="{{ url_for('static', filename='favicon2.ico') }}">
+
+</head>
+
+<body>
+    <h2>搜索引擎</h2>
+    <form action="/search" method="get">
+        <input type="text" id="search_query" name="search_query" value="{{ request.args.get('search_query', '') }}">
+        <input type="submit" value="搜索">
+        <br>
+
+
+        <style>
+            .search-option {
+                margin-bottom: 10px;
+                /* 调整这个值来改变间隔大小 */
+                display: flex;
+                align-items: center;
+            }
+
+            .search-option:last-child {
+                margin-bottom: 0;
+                /* 最后一个选项没有底部边距 */
+            }
+        </style>
+
+        <!-- 仓库选项和包括README的下拉框水平排列 -->
+        <div class="search-option">
+            <input type="radio" id="repositories" name="search_type" value="repositories" {% if
+                request.args.get('search_type')=='repositories' %}checked{% endif %}>
+            <label for="repositories">仓库</label>
+            <label for="include_readme" style="margin-left: 10px;">包括 README:</label>
+            <select id="include_readme" name="include_readme">
+                <option value="yes">是</option>
+                <option value="no" selected>否</option>
+            </select>
+        </div>
+
+        <div class="search-option">
+            <input type="radio" id="codes" name="search_type" value="codes" {% if
+                request.args.get('search_type')=='codes' %}checked{% endif %}>
+            <label for="codes">代码</label>
+        </div>
+
+        <div class="search-option">
+            <input type="radio" id="users" name="search_type" value="users" {% if
+                request.args.get('search_type')=='users' %}checked{% endif %}>
+            <label for="users">用户</label>
+        </div>
+
+        <div class="search-option">
+            <label for="sort_order">排序方式:</label>
+            <select id="sort_order" name="sort_order" onchange="document.getElementById('searchForm').submit();">
+                <option value="pagerank">PageRank得分</option>
+                <option value="hits">HITS得分</option>
+                <option value="best_match">最佳匹配</option>
+                <option value="hot">热度</option>
+            </select>
+        </div>
+        <button type="button" onclick="window.location.href='/recommendations'">猜你喜欢</button>
+
+    </form>
+
+    <h3>用户搜索结果</h3>
+    <ul>
+        {% for hit in results['hits']['hits'] %}
+        <li>
+            <strong>用户名：</strong>{{ hit['_source']['login'] }}<br>
+            <strong>昵称：</strong>{{ hit['_source']['name'] }}<br>
+            <strong>Follower 数：</strong>{{ hit['_source']['followers_count'] }}
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>

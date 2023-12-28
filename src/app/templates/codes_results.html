@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>代码搜索结果</title>
+    <link rel="icon" href="{{ url_for('static', filename='favicon2.ico') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <style>
+        mark {
+            background-color: yellow !important;
+            color: red !important;
+            /* 设置文字颜色为红色 */
+            font-weight: bold !important;
+            /* 设置文字为加粗 */
+        }
+
+
+        /* 高亮样式 */
+    </style>
+</head>
+
+<body>
+    <h2>搜索引擎</h2>
+    <form action="/search" method="get">
+        <input type="text" id="search_query" name="search_query" value="{{ request.args.get('search_query', '') }}">
+        <input type="submit" value="搜索">
+        <br>
+
+
+        <style>
+            .search-option {
+                margin-bottom: 10px;
+                /* 调整这个值来改变间隔大小 */
+                display: flex;
+                align-items: center;
+            }
+
+            .search-option:last-child {
+                margin-bottom: 0;
+                /* 最后一个选项没有底部边距 */
+            }
+        </style>
+
+        <!-- 仓库选项和包括README的下拉框水平排列 -->
+        <div class="search-option">
+            <input type="radio" id="repositories" name="search_type" value="repositories" {% if
+                request.args.get('search_type')=='repositories' %}checked{% endif %}>
+            <label for="repositories">仓库</label>
+            <label for="include_readme" style="margin-left: 10px;">包括 README:</label>
+            <select id="include_readme" name="include_readme">
+                <option value="yes">是</option>
+                <option value="no" selected>否</option>
+            </select>
+        </div>
+
+        <div class="search-option">
+            <input type="radio" id="codes" name="search_type" value="codes" {% if
+                request.args.get('search_type')=='codes' %}checked{% endif %}>
+            <label for="codes">代码</label>
+        </div>
+
+        <div class="search-option">
+            <input type="radio" id="users" name="search_type" value="users" {% if
+                request.args.get('search_type')=='users' %}checked{% endif %}>
+            <label for="users">用户</label>
+        </div>
+
+        <div class="search-option">
+            <label for="sort_order">排序方式:</label>
+            <select id="sort_order" name="sort_order" onchange="document.getElementById('searchForm').submit();">
+                <option value="pagerank">PageRank得分</option>
+                <option value="hits">HITS得分</option>
+                <option value="best_match">最佳匹配</option>
+                <option value="hot">热度</option>
+            </select>
+        </div>
+        <button type="button" onclick="window.location.href='/recommendations'">猜你喜欢</button>
+
+    </form>
+
+    <h3>代码搜索结果</h3>
+    <ul>
+        {% for hit in results['hits']['hits'] %}
+        <li>
+            <strong>仓库名/用户名：</strong><a href="{{ hit['_source']['name/repos'] }}">{{ hit['_source']['name/repos']
+                }}</a><br>
+            <strong>仓库星标数：</strong>{{ hit['_source']['starts'] }}<br>
+            <strong>代码文件：</strong><a href="{{ hit['_source']['url'] }}">{{ hit['_source']['url'] }}</a>
+            <!-- 使用 <pre> 和 <code> 标签展示代码，highlight.js 将自动检测代码语言 -->
+            <pre><code>{{ hit['_source']['highlighted']|safe }}</code></pre>
+            <!-- <pre><code class="language-{{ python }}">{{ hit['_source']['highlighted']|safe }}</code></pre> -->
+        </li>
+        {% endfor %}
+    </ul>
+    <!-- document.addEventListener('DOMContentLoaded', (event) => {
+    // 初始化 highlight.js
+    hljs.initHighlightingOnLoad();
+
+    // 使用延时来确保在 highlight.js 处理之后运行
+    setTimeout(() => {
+    document.querySelectorAll('pre code mark').forEach((mark) => {
+    mark.style.backgroundColor = 'yellow';
+    mark.style.color = 'red';
+    mark.style.fontWeight = 'bold';
+    });
+    }, 0);
+    }); -->
+
+</body>
+
+</html>

@@ -1,0 +1,648 @@
+{
+    "search_logs": [
+        {
+            "search_query": "binary",
+            "search_type": "repositories",
+            "timestamp": "2023-12-20T20:02:22.811066"
+        },
+        {
+            "search_query": "champ",
+            "search_type": "repositories",
+            "timestamp": "2023-12-21T15:01:10.769251"
+        },
+        {
+            "search_query": "execute",
+            "search_type": "repositories",
+            "timestamp": "2023-12-25T22:52:32.613596"
+        },
+        {
+            "search_query": "wonderful",
+            "search_type": "repositories",
+            "timestamp": "2023-12-25T23:02:32.071558"
+        },
+        {
+            "search_query": "wonderful",
+            "search_type": "repositories",
+            "timestamp": "2023-12-25T23:12:30.452388"
+        },
+        {
+            "search_query": "wonderful",
+            "search_type": "repositories",
+            "timestamp": "2023-12-25T23:13:10.938130"
+        },
+        {
+            "search_query": "wonderful",
+            "search_type": "repositories",
+            "timestamp": "2023-12-25T23:14:21.133467"
+        },
+        {
+            "search_query": "wonderful",
+            "search_type": "repositories",
+            "timestamp": "2023-12-25T23:16:03.973061"
+        },
+        {
+            "search_query": "wonderful",
+            "search_type": "repositories",
+            "timestamp": "2023-12-25T23:16:18.697672"
+        },
+        {
+            "search_query": "wonderful",
+            "search_type": "repositories",
+            "timestamp": "2023-12-25T23:16:21.258247"
+        },
+        {
+            "search_query": "wonderful",
+            "search_type": "repositories",
+            "timestamp": "2023-12-25T23:32:55.357349"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T02:39:49.005715"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T02:40:49.759658"
+        },
+        {
+            "search_query": "hahaha",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T02:57:31.167330"
+        },
+        {
+            "search_query": "hahaha",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T02:57:46.810937"
+        },
+        {
+            "search_query": "hahaha",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T02:57:55.542247"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T02:58:05.021212"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T02:58:09.366219"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T02:58:16.577675"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T02:58:20.024435"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T02:58:25.493514"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T02:58:31.428499"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T02:58:49.362461"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T02:58:54.931183"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T02:59:01.864873"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T03:06:33.945322"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T03:11:17.189180"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T03:11:22.235691"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T03:11:31.151870"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T03:11:42.855858"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T03:11:52.883041"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T03:11:58.763214"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T03:12:02.568520"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-26T20:58:12.512691"
+        },
+        {
+            "search_query": "ico?",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T14:42:29.932489"
+        },
+        {
+            "search_query": "mat",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T14:43:41.732407"
+        },
+        {
+            "search_query": "fat",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T14:43:51.318789"
+        },
+        {
+            "search_query": "api",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T14:46:52.397243"
+        },
+        {
+            "search_query": "ap[a-z]",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T14:50:02.743670"
+        },
+        {
+            "search_query": "ap[i-k]",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T14:50:19.999246"
+        },
+        {
+            "search_query": "python client",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T14:53:18.897711"
+        },
+        {
+            "search_query": "python client *",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T14:53:54.766550"
+        },
+        {
+            "search_query": "python client",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T14:54:15.698801"
+        },
+        {
+            "search_query": "python client",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T14:55:57.932704"
+        },
+        {
+            "search_query": "python client",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T14:56:07.674667"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T14:56:57.432379"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T14:57:06.065408"
+        },
+        {
+            "search_query": "button",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T14:57:38.165852"
+        },
+        {
+            "search_query": "button",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T14:58:12.679505"
+        },
+        {
+            "search_query": "buttons",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T14:58:15.024804"
+        },
+        {
+            "search_query": "buttons",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T14:58:18.171137"
+        },
+        {
+            "search_query": "buttons",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T14:58:20.122448"
+        },
+        {
+            "search_query": "buttons",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T14:58:23.068172"
+        },
+        {
+            "search_query": "buttons",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T14:58:24.639968"
+        },
+        {
+            "search_query": "buttons",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T15:01:29.661445"
+        },
+        {
+            "search_query": "buttons",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T15:01:33.922455"
+        },
+        {
+            "search_query": "buttons",
+            "search_type": "codes",
+            "timestamp": "2023-12-28T15:03:15.627309"
+        },
+        {
+            "search_query": "free",
+            "search_type": "codes",
+            "timestamp": "2023-12-28T15:08:17.662725"
+        },
+        {
+            "search_query": "free",
+            "search_type": "users",
+            "timestamp": "2023-12-28T15:08:23.354215"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T15:23:55.630738"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T15:24:51.182854"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T15:24:55.038399"
+        },
+        {
+            "search_query": "python",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T15:26:57.734585"
+        },
+        {
+            "search_query": "cluster",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T15:30:28.224766"
+        },
+        {
+            "search_query": "cluster",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T15:30:31.260251"
+        },
+        {
+            "search_query": "cluster",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T15:30:33.825054"
+        },
+        {
+            "search_query": "cluster",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T15:30:37.193704"
+        },
+        {
+            "search_query": "cluster",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T15:30:40.769790"
+        },
+        {
+            "search_query": "Elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T15:32:12.095926"
+        },
+        {
+            "search_query": "Elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T15:33:20.539409"
+        },
+        {
+            "search_query": "Elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T15:33:23.808628"
+        },
+        {
+            "search_query": "Elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T15:33:29.058912"
+        },
+        {
+            "search_query": "Elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T15:33:32.452520"
+        },
+        {
+            "search_query": "Elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T15:33:36.527060"
+        },
+        {
+            "search_query": "Elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T15:33:40.225066"
+        },
+        {
+            "search_query": "Elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T15:33:42.554964"
+        },
+        {
+            "search_query": "Elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T15:34:13.237258"
+        },
+        {
+            "search_query": "Elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T15:37:19.838286"
+        },
+        {
+            "search_query": "Elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T15:37:36.075195"
+        },
+        {
+            "search_query": "Elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T15:40:23.943908"
+        },
+        {
+            "search_query": "php",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:39:09.752538"
+        },
+        {
+            "search_query": "python",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:39:57.951548"
+        },
+        {
+            "search_query": "python client",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:40:19.956568"
+        },
+        {
+            "search_query": "python client",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:41:31.524071"
+        },
+        {
+            "search_query": "ico",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:43:29.425426"
+        },
+        {
+            "search_query": "icon",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:43:31.874873"
+        },
+        {
+            "search_query": "ico\uff1f",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:43:49.274991"
+        },
+        {
+            "search_query": "ico\uff1f",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:44:03.198197"
+        },
+        {
+            "search_query": "ico\uff1f",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:44:04.395341"
+        },
+        {
+            "search_query": "ico\uff1f",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:44:09.196324"
+        },
+        {
+            "search_query": "ico?",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:44:14.764618"
+        },
+        {
+            "search_query": "ico?",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:44:27.761259"
+        },
+        {
+            "search_query": "ico*",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:44:43.561279"
+        },
+        {
+            "search_query": "ap[i-k]",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:46:35.880704"
+        },
+        {
+            "search_query": "ap[i-k]",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:46:47.924464"
+        },
+        {
+            "search_query": "button",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:49:31.878418"
+        },
+        {
+            "search_query": "buttons",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:49:36.807402"
+        },
+        {
+            "search_query": "free",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:50:27.854345"
+        },
+        {
+            "search_query": "free",
+            "search_type": "codes",
+            "timestamp": "2023-12-28T16:50:29.391369"
+        },
+        {
+            "search_query": "free",
+            "search_type": "users",
+            "timestamp": "2023-12-28T16:50:58.211088"
+        },
+        {
+            "search_query": "Elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:55:17.916151"
+        },
+        {
+            "search_query": "Elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:57:08.034071"
+        },
+        {
+            "search_query": "Elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:57:11.137356"
+        },
+        {
+            "search_query": "Elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:57:18.367000"
+        },
+        {
+            "search_query": "Elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:57:20.223366"
+        },
+        {
+            "search_query": "Elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:57:21.912612"
+        },
+        {
+            "search_query": "Elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:57:24.528006"
+        },
+        {
+            "search_query": "Elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:57:27.936342"
+        },
+        {
+            "search_query": "Elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:57:47.640363"
+        },
+        {
+            "search_query": "elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:57:52.012244"
+        },
+        {
+            "search_query": "elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:57:55.748286"
+        },
+        {
+            "search_query": "elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:57:57.333102"
+        },
+        {
+            "search_query": "elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:58:10.422268"
+        },
+        {
+            "search_query": "elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T16:58:13.637594"
+        },
+        {
+            "search_query": "elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T17:23:26.752952"
+        },
+        {
+            "search_query": "elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T17:23:28.729944"
+        },
+        {
+            "search_query": "elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T17:23:30.486218"
+        },
+        {
+            "search_query": "elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T17:23:36.283509"
+        },
+        {
+            "search_query": "elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T17:23:39.040827"
+        },
+        {
+            "search_query": "elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T17:23:43.325882"
+        },
+        {
+            "search_query": "elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T17:23:45.840950"
+        },
+        {
+            "search_query": "elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T17:30:24.940201"
+        },
+        {
+            "search_query": "elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T17:30:28.493316"
+        },
+        {
+            "search_query": "elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T17:30:32.961022"
+        },
+        {
+            "search_query": "elasticsearch",
+            "search_type": "repositories",
+            "timestamp": "2023-12-28T17:30:39.386157"
+        }
+    ],
+    "page_visit_logs": [],
+    "web_click_logs": [
+        {
+            "url": "/static/snapshot/xctool.png",
+            "timestamp": "2023-12-25T22:52:43.291838"
+        },
+        {
+            "url": "https://github.com/zemirco/nodejs-pdf-docs",
+            "timestamp": "2023-12-26T20:58:15.604074"
+        },
+        {
+            "url": "/static/snapshot/Buttons.png",
+            "timestamp": "2023-12-28T14:57:57.475465"
+        },
+        {
+            "url": "/static/snapshot/Buttons.png",
+            "timestamp": "2023-12-28T16:49:46.072239"
+        }
+    ]
+}
